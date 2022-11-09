@@ -1,12 +1,19 @@
+import { MyInfo } from './components/myInfo'
+import { I18nProvider } from './providers'
+import { useState } from 'react'
+
 function App() {
+  const [language, setLanguage] = useState<string>('en')
+
+  const handleLanguageChange = () =>
+    setLanguage(language === 'en' ? 'sk' : 'en')
   return (
-    <div>
-      <main>
-        <section className=" bg-blue-900 min-h-screen">
-          <h1>Hello World</h1>
-        </section>
-      </main>
-    </div>
+    <I18nProvider url={'http://localhost:5173'} language={language}>
+      <MyInfo
+        currentLanguage={language}
+        handleLanguageChange={handleLanguageChange}
+      />
+    </I18nProvider>
   )
 }
 
