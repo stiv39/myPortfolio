@@ -1,4 +1,4 @@
-import { MyInfo } from './components/myInfo'
+import { MainView } from './views/main'
 import { I18nProvider } from './providers'
 import { useState } from 'react'
 
@@ -9,7 +9,7 @@ function App() {
     setLanguage(language === 'en' ? 'sk' : 'en')
   return (
     <I18nProvider url={'http://localhost:5173'} language={language}>
-      <MyInfo
+      <MainView
         currentLanguage={language}
         handleLanguageChange={handleLanguageChange}
       />

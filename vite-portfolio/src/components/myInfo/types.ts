@@ -1,4 +1,5 @@
+import { TFunction } from 'i18next'
+
 export interface MyInfoProps {
-  currentLanguage: string
-  handleLanguageChange: () => void
+  t: TFunction<'translation', undefined>
 }

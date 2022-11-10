@@ -5,18 +5,23 @@ export const NavBar: React.FC<NavBarProps> = ({
   handleDarkModeChange,
   handleLanguageChange,
   language,
+  darkMode,
 }) => {
   return (
     <nav className="py-10 mb-12 flex justify-between">
-      <h1 className="text-xl">ja som king of pop</h1>
+      <h1 className="text-xl dark:text-white">
+        Welcome to my{' '}
+        <span className="text-teal-600 font-medium">portfolio</span>
+      </h1>
       <ul className="flex items-center">
-        <li>
+        <li className="px-4 py-2">
           <BsFillMoonStarsFill
+            color={darkMode ? 'white' : 'black'}
             onClick={handleDarkModeChange}
             className="cursor-pointer text-2xl"
           />
         </li>
-        <li>
+        <li className="px-4 py-2">
           <img
             width={'20px'}
             src={`/flags/${language}.svg`}

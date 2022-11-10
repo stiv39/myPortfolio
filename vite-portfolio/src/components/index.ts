@@ -1,0 +1,5 @@
+export { MyLinks } from './myLinks'
+export { NavBar } from './navBar/index'
+export { MyProjects } from './myProjects'
+export { MySkills } from './mySkills'
+export { MyInfo } from './myInfo'

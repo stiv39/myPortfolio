@@ -1,5 +1,6 @@
 export interface NavBarProps {
-  handleDarkModeChange: () => void
   language: string
+  darkMode: boolean
+  handleDarkModeChange: () => void
   handleLanguageChange: () => void
 }
