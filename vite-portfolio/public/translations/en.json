@@ -1,10 +1,12 @@
 {
     "app": {
-        "name": "FirstName LastName",
+        "welcome": "Welcome to my <1>porfolio<1>",
+        "name": "Norbert J.",
         "position": "Fullstack Web Developer",
         "info": "Im a passionate and creative software engineer with a strong focus on pragmatism and simplicity specializing in web application development with .NET, Web API,  HTML5, CSS and React.",
-        "projects": "Projects",
-        "projectsInfo": "projects info",
-        "skills": "Skills"
+        "projects": "My Work Experience",
+        "skills": "Skills",
+        "resume": "CV",
+        "certifications": "Certifications"
     }
 }

@@ -1,5 +1,5 @@
 export interface CardProps {
-  heading: string
+  link: string
   subheading: string
   content: string
   bottomContent: string

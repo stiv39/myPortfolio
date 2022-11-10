@@ -1,9 +1,12 @@
 {
     "app": {
-        "name": "FirstName LastName",
+        "welcome": "Vitajte v mojom <1>portfóliu<1>",
+        "name": "Norbert J.",
         "position": "Fullstack Web Developer",
-        "info": "Im a passionate and creative software engineer with a strong focus on pragmatism and simplicity specializing in web application development with .NET, Web API,  HTML5, CSS and React.",
-        "projects": "Projekty",
-        "projectsInfo": "projects info"
+        "info": "Som vášnivý a kreatívny softvérový inžinier so silným zameraním na pragmatizmus a jednoduchosť so špecializáciou na vývoj webových aplikácií s .NET, Web API, HTML5, CSS a React.",
+        "projects": "Pracovné skúsenosti",
+        "skills": "Technológie",
+        "resume": "CV",
+        "certifications": "Certifikáty"
     }
 }

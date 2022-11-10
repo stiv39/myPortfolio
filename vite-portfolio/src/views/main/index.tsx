@@ -28,9 +28,15 @@ export const MainView: React.FC<MainViewProps> = ({
         {/* SKILLS */}
         <section>
           <MySkills t={t} />
+          <div>
+            <h3 className="text-3xl pt-6 pb-4 dark:text-white">
+              {t('app.certifications')}
+            </h3>
+            <p className="font-medium dark:text-white">Microsoft Exam AZ-900</p>
+          </div>
         </section>
         {/* PROJECTS */}
-        <section>
+        <section id={'projects'}>
           <MyProjects t={t} />
         </section>
       </main>
